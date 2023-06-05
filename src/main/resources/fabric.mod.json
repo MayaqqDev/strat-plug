@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "strat-plug",
+  "version": "${version}",
+  "name": "strat-plug",
+  "description": "Please forgive me for I have sinned",
+  "authors": [
+    "Mayaqq"
+  ],
+  "contact": {
+    "repo": "https://github.com/MayaqqDev/strat-plug"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/strat-plug/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.mayaqq.stratplug.StratPlug"
+    ]
+  },
+  "mixins": [
+    "strat-plug.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
